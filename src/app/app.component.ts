@@ -59,7 +59,13 @@ export class AppComponent {
       {data:[10,20,30,40],
         name:'deneme1',
         type:'line',
-      color:'#42b0f5'}
+      color:'#42b0f5'},
+      {
+        data:[100,200,300],
+        name:'deneme2',
+        type:'area',
+        color:'#38a832'
+      }
     ]
     this.updateFlag=true
   //   const self = this,
